@@ -1,0 +1,44 @@
+.product-card {
+  width: 300px;
+  background-color: lightgray;
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 2, 0.5);
+  border-radius: 15px;
+  border: 15px solid transparent;
+  border-image-source: url("https://d038e9f7-b51f-43a0-83e1-b95d5a0d9336.mdnplay.dev/shared-assets/images/examples/border-diamonds.png");
+  border-image-slice: 20;
+  border-image-width: 10px;
+  border-image-outset: 0px;
+  border-image-repeat: round;
+  padding: 20px;
+  
+}
+
+img {
+  width: 270px;
+  height: auto;
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px;
+  text-align: center;
+}
+
+.product-description {
+  height: 80px;
+  overflow-y: auto;
+  font-size: larger;
+}
+
+.product-price {
+  color: lightslategrey;
+  opacity: 0.5;
+}
+
+.product-price:hover {
+  color: black;
+  opacity: 1;
+}
