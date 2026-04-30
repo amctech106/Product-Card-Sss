@@ -10,7 +10,7 @@
   border-image-width: 10px;
   border-image-outset: 0px;
   border-image-repeat: round;
-  padding: 20px;
+  padding: 2px;
   
 }
 
@@ -35,10 +35,12 @@ img {
 
 .product-price {
   color: lightslategrey;
-  opacity: 0.5;
+  opacity: 0;
 }
 
 .product-price:hover {
   color: black;
   opacity: 1;
+  font-size: larger;
+  
 }
