@@ -33,12 +33,12 @@ img {
 }
 
 .product-price {
-  color: lightslategrey;
-  opacity: 0;
+  display: none;
 }
 
-.product-price:hover {
+.product-card:hover .product-price {
+  display: block;
   color: black;
-  opacity: 1;
   font-size: larger;
+  text-align: center;
 }
