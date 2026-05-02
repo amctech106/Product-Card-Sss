@@ -40,5 +40,6 @@ img {
   display: block;
   color: black;
   font-size: larger;
+  font-weight: 900;
   text-align: center;
 }
